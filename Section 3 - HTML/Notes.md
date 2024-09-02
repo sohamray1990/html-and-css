@@ -22,7 +22,7 @@ So, we have an essential job. We want to HELP user agents do their jobs successf
 
 Markup (Describing Content) - Literally the marks that an editor might make on a document to provide instructions or clarifications.
 
-Soham Ray (This is his name) <- Markup can be this, but which part of the document is it? It is only Soham or Ray or Soham Ray?
+Soham Ray (This is his name) <- Markup can be like this, but which part of the document is the name? It is only Soham or Ray or Soham Ray?
 
 <name> Soham Ray </name> <- We're marking up the document. These pieces have a name - TAGS. A Start Tag and an End Tag.
 
@@ -54,7 +54,7 @@ Tags, Attributes and Elements (The Building Blocks) : The Tag is about meaning. 
 
 <name type="first" nickname="false"> Soham </name>
 
-Here, "type" is an attribute. Syntax - attributeName = attributeValue.  
+Here, "type" is an attribute. Syntax - attributeName="attributeValue"  
 The above entire BLOCK with the Tags, Attributes and it's Contents is called an Element.
 
 ---
@@ -62,8 +62,8 @@ The above entire BLOCK with the Tags, Attributes and it's Contents is called an 
 Elements and Trees :
 
 <name>
-<firstname> Soham </firstname>
-<lastname> Ray </lastname>
+    <firstname> Soham </firstname>
+    <lastname> Ray </lastname>
 </name>
 
 Well formatted markups make it easy to see the relationships to tree data structures.
@@ -89,7 +89,7 @@ So, there's a HTML specification. There's CSS specification. This course teaches
 
 The HTML Specification (Dictionary for our markup language and lot more than that) :
 
-The specification is for providing semantic-level markup language and associated semantic-level scripting APIs for authoring accessible pages on the web ranging from static documents to dynamic applications.
+The specification is for providing semantic-level markup language and associated semantic-level scripting APIs for authoring accessible pages on the web, ranging from static documents to dynamic applications.
 
 From DOM Spec -
 Elements, attributes and attribute values in HTML are defined to have certain meanings (semantics).
@@ -104,7 +104,7 @@ Conceptual Aside : Author VS Implementor
 Authors - Writing and adding meaning to the document.
 Implementor - Creating a user agent which will communicate the documents to the user.
 
-We are working together, authors and implementors. We are following the specification when we add meaning. And interpretors are following the specification when they interpret the meaning.
+We are working together, authors and implementors. We are following the same specification when we add meaning. And interpretors are following the specification when they interpret the meaning.
 
 You are READING the same specifications the people making Google Chrome are.
 

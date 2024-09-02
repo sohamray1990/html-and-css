@@ -9,7 +9,7 @@ Content model -
 Flow content
 
 An article element represents complete or self-contained compositions in a document, page etc. This could be a form post, magazine, blog post, user comment etc. or any other independent item of content.
-In other words, if you take that piece out of the document, it could still be it's own document and still make sense. A big part of being an HTML author is looking up at the content and deciding what tag, element works best for that piece of the content.
+In other words, if you take that piece out of the document, it could still be it's own document and make sense. A big part of being an HTML author is looking up at the content and deciding what tag, element works best for that piece of the content.
 So, we have to look at our content and make a judgement call. Does this section of the article match the meaning of an article element.
 
 ---

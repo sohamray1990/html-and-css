@@ -3,41 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <title>Resume of Soham Ray</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    Resume
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workhistory">Work History</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#mailingaddress">Mailing Address </a></li>
+      </ul>
+    </nav>
 
-    <section>
-      <h2>Soham Ray</h2>
-      Coder with a varied lot of interests Website:
-      https://sohamray1990.github.io/portfolio Phone : +91 XXXXX365
-    </section>
+    <main>
+      <h1>Resume</h1>
 
-    <article>
-      <header><h2>About Me</h2></header>
-      Hi! I'm Soham Ray and I'm happy to learn and solve the problem together.
-      <aside>Don't imitate, uderstand.</aside>
-      <footer>Contact Me</footer>
-    </article>
+      <section>
+        <h2>Soham Ray</h2>
+        <p>Coder with a varied lot of <em>interests</em></p>
+        <dl>
+          <dt>Website</dt>
+          <dd>
+            <a href="https://sohamray1990.github.io/portfolio" target="_blank"
+              >My Portfolio</a
+            >
+          </dd>
+          <dt>Phone :</dt>
+          <dd>+91 XXXXX365</dd>
+        </dl>
+      </section>
 
-    <section>
-      <h2>Services</h2>
-      Web Development Training
-    </section>
+      <article id="aboutme">
+        <header><h2>About Me</h2></header>
+        <p>
+          Hi! I'm Soham Ray and I'm happy to learn and solve the problem
+          together.
+        </p>
+        <aside><small>Don't imitate, understand.</small></aside>
+        <footer>Contact Me</footer>
+      </article>
 
-    <section>
-      <h2>Skills</h2>
-      HTML CSS JavaScript
-    </section>
+      <section id="services">
+        <h2>Services</h2>
+        <ul>
+          <li>Web Developlment</li>
+          <li>App Development</li>
+          <li>Training</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Work History</h2>
-      Web developer ABC Company 5 years
-    </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Mailing Address</h2>
-      <address>1st Cross, Bangalore</address>
-    </section>
+      <section id="workhistory">
+        <h2>Work History</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Company</th>
+              <th>Years</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>UI/UX Designer</td>
+              <td>XYZ Corp</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td>Web Developer</td>
+              <td>ABC Corp</td>
+              <td>5 years</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>7 years</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- Needs pictures -->
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+      </section>
+
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+          <p>I <strong>love Soham's course!</strong></p>
+        </blockquote>
+        <p>By Ruprekha</p>
+      </section>
+
+      <section id="mailingaddress">
+        <h2>Mailing Address</h2>
+        <address>
+          1st Cross, <br />
+          Bangalore - 64
+        </address>
+      </section>
+    </main>
   </body>
 </html>

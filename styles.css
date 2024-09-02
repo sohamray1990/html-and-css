@@ -1,0 +1,45 @@
+/* 
+
+CASCADING PROPERTY OF CSS :
+
+> Origin & Importance (Ex - user-agent or author | !important)
+> Specificity (Ex - #sectionId.sectionClass has higher specificity than #sectionId)
+> Order of Appearance (Ex - The file that appear last in the order wins or has the highest precedence)
+
+From https://web.dev/learn/css/the-cascade 
+> Position and order of appearance: the order of which your CSS rules appear
+> Specificity: an algorithm which determines which CSS selector has the strongest match
+> Origin: the order of when CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+> Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+BOX POSITION :
+
+Static      - Default behaviour of block/in-line elements. Normal flow.
+
+Relative    - Normal Flow, with an offset. 
+            The box is laid out as Static, then offset from its position. Relative behaves exactly like Static when it comes layout, 
+            unless given offset. The oldest version of offsetting lets you mention TOP, LEFT, BOTTOM, RIGHT. Works with both positive and negative values. The other boxes 
+            keep behaving as if the box drawn with relative postion was still in it's static position.
+
+Absolute    - Outside the normal flow of boxes. The box is laid outside the normal flow of boxes. It is placed relative to its nearest non-Static ancestor. 
+            The box it's laid out relative to, is the first ancestor we come across going through its ancestors, starting at the parent. It can go outside of the main element, 
+            body element and can live inside the HTML element. The ROOT element. In CSS, the ROOT element is called the initial containing block. That means when all else fails,
+            the HTML element the box that it draws, will be the containing block.
+
+Fixed       - Outisde the flow, Relative to the VIEWPORT. 
+            The box is laid out outside the normal flow of boxes. It's containing block is the VIEWPORT. 
+
+Sticky      - Stuck to the scrollable.
+            The box is laid out as relative to its nearest scrollable ancestor. The box will be laid out as static. But then when it'll leave the viewport, its offset relative
+            to the viewport, behaving essentially like Fixed.
+
+
+Z-INDEX : 
+
+We talk as if the boxes laid out on top of each other are on a 3D space. But in reality, the box sitting behind is painted first than the other box which overlaps it 
+through the property called Z-Index. This happens due to the paiting order during the PAINTING (coloring of the boxes) process, post the rendering 
+(mapping out the layout of the boxes once rendering tree is created) proccess. 
+
+
+
+*/
