@@ -41,5 +41,10 @@ through the property called Z-Index. This happens due to the paiting order durin
 (mapping out the layout of the boxes once rendering tree is created) proccess. 
 
 
+FLEXBOX VS GRID : 
+
+Depends majorly on the individual items / children. 
+> If you want to have an intrinsic sizing for the items, choose Flexbox. 
+> For scenarios where the content needs to have a structured sizing, choose Grid. 
 
 */
