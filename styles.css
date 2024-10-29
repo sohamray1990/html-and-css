@@ -33,7 +33,6 @@ Sticky      - Stuck to the scrollable.
             The box is laid out as relative to its nearest scrollable ancestor. The box will be laid out as static. But then when it'll leave the viewport, its offset relative
             to the viewport, behaving essentially like Fixed.
 
-
 Z-INDEX : 
 
 We talk as if the boxes laid out on top of each other are on a 3D space. But in reality, the box sitting behind is painted first than the other box which overlaps it 
