@@ -1,2 +1,2 @@
 # html-and-css
-This repo is created for all things related to pure HTML and CSS
+This repo is created for all things related to pure HTML and CSS. 
